@@ -11,12 +11,9 @@ import min3d.parser.Parser;
 import min3d.vos.Light;
 
 /**
- * How to load a model from a .obj file
- *
- * @author dennis.ippel
- *
+ * Created by fasannan on 30/5/2015.
  */
-public class LoadFace extends RendererActivity {
+public class LoadEyeWear extends RendererActivity{
     private Object3dContainer objModel;
 
     @Override
@@ -52,6 +49,9 @@ public class LoadFace extends RendererActivity {
     @Override
     public void updateScene() {
         objModel.rotation().y++;
+        objModel.rotation().x++;
 
     }
+
+
 }

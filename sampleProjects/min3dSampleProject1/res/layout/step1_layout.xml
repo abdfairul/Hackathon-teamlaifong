@@ -11,8 +11,8 @@
         />
 
     <TextView android:id="@+id/splashHomePage"
-        android:text="@string/splashHomePage"
-        android:textSize="16sp"
+        android:text="@string/step1PageTitle"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:padding="10sp"
         android:textColor="#0000ff"
@@ -22,8 +22,9 @@
     <TextView
         android:layout_width="370dp"
         android:layout_height="wrap_content"
+        android:padding="10sp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/step1"
+        android:text="@string/step1Description"
         android:id="@+id/textView"
         android:layout_weight="0.07"
         />
@@ -31,7 +32,7 @@
     <ImageView
         android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
+        android:layout_height="280dp"
         android:id="@+id/imageView"
         android:src="@drawable/arnold_facial_structure" />
 
@@ -42,7 +43,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="LOAD"
+        android:text="@string/button_load"
         android:id="@+id/button"
         android:onClick="sendMessage" />
 

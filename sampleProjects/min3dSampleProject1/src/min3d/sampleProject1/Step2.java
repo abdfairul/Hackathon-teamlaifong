@@ -22,7 +22,7 @@ public class Step2 extends RendererActivity{
     public void sendMessage(View view) {
         // Intent(context, class to send the intent to)
         // this Intent will call another activity (DisplayMesageActivity)
-        Intent intent = new Intent(this, LoadFace.class);
+        Intent intent = new Intent(this, LoadEyeWear.class);
         startActivity(intent);
     }
 }

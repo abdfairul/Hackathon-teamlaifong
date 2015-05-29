@@ -15,7 +15,7 @@
 
     <TextView android:id="@+id/splashHomePage"
         android:text="@string/splashHomePage"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:padding="10sp"
         android:textColor="#0000ff"

@@ -5,9 +5,12 @@
     <string name="splashTitle">“When designing eyewear you’re working in small spaces so it’s always a challenge to create lightweight components that are strong and functional.\"
         \n\nThanks to the huge degree of design freedom in 3D Printing, Materialise designed clips which can be easily opened and closed, thereby performing better than injection molded predecessors.\n\n
     </string>
-    <string name="button_next">Next</string>
+    <string name="button_next">NEXT</string>
+    <string name="button_load">LOAD</string>
     <string name="projectUrl">https://github.com/abdfairul/Hackathon-teamlaifong</string>
     <string name="siteUrl">http://www.materialise.com/cases/the-cabrio-collection-by-hoet-design-studio</string>
-    <string name="step1">Step 1: Please Load a Face Model</string>
-    <string name="step2">Step 2: Please Load the Frame</string>
+    <string name="step1PageTitle">Step 1 </string>
+    <string name="step1Description">Please Load a Face Model</string>
+    <string name="step2PageTitle">Step 2 </string>
+    <string name="step2Description">Please Load the Eye Wear Model</string>
 </resources>
