@@ -68,7 +68,8 @@ public class SplashActivity extends ListActivity
 //			new ItemVo("Keyframe animation", ExampleKeyframeAnimation.class, "ExampleKeyframeAnimation.java"),
 //			new ItemVo("Using the accelerometer", ExampleAccelerometer.class, "ExampleAccelerometer.java")
 
-			new ItemVo("Load model from .obj file", ExampleLoadObjFile.class, "ExampleLoadObjFile.java")
+			new ItemVo("Load face model", ExampleLoadObjFile.class, "ExampleLoadObjFile.java"),
+			new ItemVo("Load spectacle model", ExampleLoadSpectacleObjFile.class, "ExampleLoadSpectacleObjFile.java")
 	};
 	
     @Override
@@ -83,8 +84,8 @@ public class SplashActivity extends ListActivity
         setContentView(R.layout.splash_activity);
 	    setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, strings));
 	    
-	    TextView tv = (TextView) this.findViewById(R.id.splashTitle);
-	    Linkify.addLinks(tv, 0x07);
+	    //TextView tv = (TextView) this.findViewById(R.id.splashTitle);
+	    //Linkify.addLinks(tv, 0x07);
 	    
 	    registerForContextMenu(getListView());	    
 	    
@@ -106,8 +107,8 @@ public class SplashActivity extends ListActivity
         super.onCreateOptionsMenu(menu);
 
         int i = 0;
-        menu.add(0, 0, i++, "project home");
-        menu.add(0, 1, i++, "author blog");
+        menu.add(0, 0, i++, "Project Home");
+        menu.add(0, 1, i++, "Official Site");
 
         return true;
     }
@@ -127,7 +128,7 @@ public class SplashActivity extends ListActivity
                 
             case 1:
             	i = new Intent(Intent.ACTION_VIEW);
-            	i.setData(Uri.parse( this.getResources().getString(R.string.myBlogUrl) ));
+            	i.setData(Uri.parse( this.getResources().getString(R.string.siteUrl) ));
             	startActivity(i);                
             	return true;
         }

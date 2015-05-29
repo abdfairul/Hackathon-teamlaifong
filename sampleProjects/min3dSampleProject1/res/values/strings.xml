@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">min3D framework examples</string>
-    <string name="splashTitle">Studying the source of this app is the best way to start learning min3D:\nhttp://code.google.com/p/min3d</string>
-    <string name="projectUrl">http://code.google.com/p/min3d</string>
-    <string name="myBlogUrl">http://www.zeropointnine.com/blog</string>
+    <string name="splashTitle">“When designing eyewear you’re working in small spaces so it’s always a challenge to create lightweight components that are strong and functional.\"
+        \n\nThanks to the huge degree of design freedom in 3D Printing, Materialise designed clips which can be easily opened and closed, thereby performing better than injection molded predecessors.\n\n
+    </string>
+    <string name="projectUrl">https://github.com/abdfairul/Hackathon-teamlaifong</string>
+    <string name="siteUrl">http://www.materialise.com/cases/the-cabrio-collection-by-hoet-design-studio</string>
 </resources>  

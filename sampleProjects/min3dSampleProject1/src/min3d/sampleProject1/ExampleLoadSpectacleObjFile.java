@@ -12,7 +12,7 @@ import min3d.vos.Light;
  * @author dennis.ippel
  * 
  */
-public class ExampleLoadObjFile extends RendererActivity {
+public class ExampleLoadSpectacleObjFile extends RendererActivity {
 	private Object3dContainer objModel;
 
 	@Override
@@ -21,7 +21,7 @@ public class ExampleLoadObjFile extends RendererActivity {
 		scene.lights().add(new Light());
 		
 		IParser parser = Parser.createParser(Parser.Type.OBJ,
-				getResources(), "min3d.sampleProject1:raw/face_obj", true);
+				getResources(), "min3d.sampleProject1:raw/spec_1_obj", true);
 		parser.parse();
 
 		objModel = parser.getParsedObject();
