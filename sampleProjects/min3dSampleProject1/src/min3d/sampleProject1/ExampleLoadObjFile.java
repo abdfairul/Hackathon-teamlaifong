@@ -32,5 +32,6 @@ public class ExampleLoadObjFile extends RendererActivity {
 	@Override
 	public void updateScene() {
 		//objModel.rotation().y++;
+
 	}
 }

@@ -17,9 +17,9 @@ public class ExampleLoadSpectacleObjFile extends RendererActivity {
 
 	@Override
 	public void initScene() {
-
+		
 		scene.lights().add(new Light());
-
+		
 		IParser parser = Parser.createParser(Parser.Type.OBJ,
 				getResources(), "min3d.sampleProject1:raw/glasses_obj", true);
 		parser.parse();
