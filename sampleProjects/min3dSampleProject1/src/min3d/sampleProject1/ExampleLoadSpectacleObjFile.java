@@ -21,7 +21,7 @@ public class ExampleLoadSpectacleObjFile extends RendererActivity {
 		scene.lights().add(new Light());
 		
 		IParser parser = Parser.createParser(Parser.Type.OBJ,
-				getResources(), "min3d.sampleProject1:raw/spec_1_obj", true);
+				getResources(), "min3d.sampleProject1:raw/spec_obj", true);
 		parser.parse();
 
 		objModel = parser.getParsedObject();
