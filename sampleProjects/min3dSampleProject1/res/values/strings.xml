@@ -7,6 +7,8 @@
     </string>
     <string name="button_next">NEXT</string>
     <string name="button_load">LOAD</string>
+    <string name="button_combine">COMBINE!</string>
+    <string name="button_print">PRINT!</string>
     <string name="projectUrl">https://github.com/abdfairul/Hackathon-teamlaifong</string>
     <string name="siteUrl">http://www.materialise.com/cases/the-cabrio-collection-by-hoet-design-studio</string>
     <string name="step1PageTitle">Step 1 </string>
