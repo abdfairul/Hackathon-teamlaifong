@@ -14,7 +14,7 @@ import min3d.vos.Light;
  * Created by fasannan on 30/5/2015.
  */
 public class LoadEyeWear extends RendererActivity{
-    private Object3dContainer objModel;
+    private Object3dContainer face;
 
     @Override
     protected void onCreateSetContentView()
@@ -41,15 +41,16 @@ public class LoadEyeWear extends RendererActivity{
                 getResources(), "min3d.sampleProject1:raw/face_obj", true);
         parser.parse();
 
-        objModel = parser.getParsedObject();
-        objModel.scale().x = objModel.scale().y = objModel.scale().z = .01f;
-        scene.addChild(objModel);
+        face = parser.getParsedObject();
+        face.scale().x = face.scale().y = face.scale().z = .01f;
+        scene.addChild(face);
+
     }
 
     @Override
     public void updateScene() {
-        objModel.rotation().y++;
-        objModel.rotation().x++;
+        face.rotation().y++;
+        face.rotation().x++;
 
     }
 
