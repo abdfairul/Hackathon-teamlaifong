@@ -21,16 +21,17 @@ public class ExampleLoadSpectacleObjFile extends RendererActivity {
 		scene.lights().add(new Light());
 		
 		IParser parser = Parser.createParser(Parser.Type.OBJ,
-				getResources(), "min3d.sampleProject1:raw/spec_obj", true);
+				getResources(), "min3d.sampleProject1:raw/glasses_obj", true);
 		parser.parse();
 
 		objModel = parser.getParsedObject();
-		objModel.scale().x = objModel.scale().y = objModel.scale().z = .01f;
+		objModel.scale().x = objModel.scale().y = objModel.scale().z = 15.0f;
 		scene.addChild(objModel);
 	}
 
 	@Override
 	public void updateScene() {
-		//objModel.rotation().y++;
+		objModel.rotation().x++;
+		objModel.rotation().y++;
 	}
 }

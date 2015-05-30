@@ -1,0 +1,63 @@
+newmtl earthings
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl FrameRims
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl framesEars
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl Nose
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl Lens
+d 0.741573
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl NoseFrame2
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+
+newmtl FramesNose
+d 1
+Ns 1
+Ni 0
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+

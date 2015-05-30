@@ -69,7 +69,8 @@ public class SplashActivity extends ListActivity
 //			new ItemVo("Using the accelerometer", ExampleAccelerometer.class, "ExampleAccelerometer.java")
 
 			new ItemVo("Load face model", ExampleLoadObjFile.class, "ExampleLoadObjFile.java"),
-			new ItemVo("Load spectacle model", ExampleLoadSpectacleObjFile.class, "ExampleLoadSpectacleObjFile.java")
+			new ItemVo("Load spectacle model", ExampleLoadSpectacleObjFile.class, "ExampleLoadSpectacleObjFile.java"),
+			new ItemVo("Load model from .3ds file", ExampleLoad3DSFile.class, "ExampleLoad3DSFile.java")
 	};
 	
     @Override
